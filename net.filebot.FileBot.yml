@@ -85,6 +85,6 @@ modules:
         sha256: e5f28b8517c05c270eaeb3b6e1329f43dd104be821a982b46d48bee80749b21c
         x-checker-data:
           type: html
-          url: https://www.filebot.net/download.html
-          version-pattern: 'FileBot_([\d\.-]*)_'
+          url: https://www.filebot.net/update.xml
+          version-pattern: '<name>FileBot ([\d\.-]*)</name>'
           url-template: https://get.filebot.net/filebot/FileBot_$version/FileBot_$version-aur.tar.xz

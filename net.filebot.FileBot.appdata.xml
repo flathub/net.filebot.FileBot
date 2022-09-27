@@ -26,7 +26,18 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="4.9.6" date="2022-02-22"/>
+    <release version="4.9.6" date="2022-02-22">
+      <description>
+        <ul>
+          <li>Added Open / Reveal / Rename / Move to Trash context menu</li>
+          <li>Autofill behaviour for Edit Match</li>
+          <li>Improved Conflict resolution messages</li>
+          <li>Improved support for {plex.id} style file paths</li>
+          <li>Enhanced format bindings</li>
+          <li>Lots of minor improvements and bug fixes</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.9.5" date="2022-02-22"/>
     <release version="4.9.4" date="2021-07-28"/>
   </releases>
