@@ -26,7 +26,30 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="5.0.0" date="2023-03-14"/>
+    <release version="5.0.0" date="2023-03-14">
+      <description>
+        <ul>
+          <li>Added support for Digital and Production and Story Arc episode order preferences</li>
+          <li>Added Default Presets for assorted use cases</li>
+          <li>Added Group ➔ Double Episodes to Episodes context menu</li>
+          <li>Added {jellyfin} binding (i.e. Jellyfin naming standard)</li>
+          <li>Added {acf} audio channel format tag binding</li>
+          <li>Added {ct} file creation date binding</li>
+          <li>Added {relativeFile} relative library path binding</li>
+          <li>Enhanced {hd} with support for additional HD resolutions (i.e. UHD / QHD / FHD / HD / SD)</li>
+          <li>Enhanced Match auto-align behaviour</li>
+          <li>Added column edit behaviour to Edit Name</li>
+          <li>Added CTRL+O and CTRL+L keyboard shortcuts for Open and Reveal</li>
+          <li>Added CTRL+M and CTRL+N keyboard shortcuts for Edit Match and Edit Name</li>
+          <li>Support for setting POSIX permissions via --apply chmod</li>
+          <li>Support for Extras via --apply import</li>
+          <li>Support for transcoding TMPlayer and MPL2 subtitle files to SRT / UTF-8</li>
+          <li>Enable TheTVDBv4 by default</li>
+          <li>Enable HTTP/2 by default</li>
+          <li>Fix drag-n-drop issues on Linux / KDE / Dolphin</li>
+        </ul>
+      </description>
+    </release>
     <release version="4.9.6" date="2022-02-22">
       <description>
         <ul>
