@@ -10,7 +10,7 @@
     <p>NOTE: This application is not verified by, affiliated with, or supported by Point Planck Limited.</p>
   </description>
   <launchable type="desktop-id">net.filebot.FileBot.desktop</launchable>
-  <content_rating type="oars-1.1" />
+  <content_rating type="oars-1.1"/>
   <metadata_license>CC0-1.0</metadata_license>
   <url type="homepage">https://filebot.net/</url>
   <url type="bugtracker">https://www.filebot.net/forums/viewforum.php?f=6</url>
@@ -26,6 +26,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="5.0.0" date="2023-03-14"/>
     <release version="4.9.6" date="2022-02-22">
       <description>
         <ul>
