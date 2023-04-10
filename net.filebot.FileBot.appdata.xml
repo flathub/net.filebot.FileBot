@@ -26,6 +26,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="5.0.2" date="2023-04-10"/>
     <release version="5.0.1" date="2023-03-18">
       <description>
         <ul>
