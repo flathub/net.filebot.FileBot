@@ -26,7 +26,15 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="5.0.2" date="2023-04-10"/>
+    <release version="5.0.2" date="2023-04-10">
+      <description>
+        <ul>
+          <li>Fix {resolution} default String representation issues</li>
+          <li>Fix NFO file invalid ID lookup issues</li>
+          <li>Fix HTTP/2 system proxy issues</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.0.1" date="2023-03-18">
       <description>
         <ul>
