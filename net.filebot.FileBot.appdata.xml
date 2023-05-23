@@ -26,6 +26,18 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="5.0.3" date="2023-05-23">
+      <description>
+        <ul>
+          <li>Use Series Name (Year) as {kodi} naming standard</li>
+          <li>Use custom --action for --apply import file operations</li>
+          <li>Improved support for .xattr folders with --apply import and --apply prune post-processing features</li>
+          <li>Improved support for external format files</li>
+          <li>Fix NFO file mismatch issues</li>
+          <li>Fix {resolution}, {bitrate}, {channels}, {khz}, etc binding issues</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.0.2" date="2023-04-10">
       <description>
         <ul>
