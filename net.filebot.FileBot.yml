@@ -1,6 +1,6 @@
 app-id: net.filebot.FileBot
 runtime: org.freedesktop.Platform
-runtime-version: "22.08"
+runtime-version: '22.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk11
@@ -81,8 +81,8 @@ modules:
       - type: file
         path: net.filebot.FileBot.svg
       - type: archive
-        url: https://get.filebot.net/filebot/FileBot_5.1.0/FileBot_5.1.0-aur.tar.xz
-        sha256: 61802e897aa20469a4b6dad9db0a521a5b81da753fe50535542a172a5d05dcbe
+        url: https://get.filebot.net/filebot/FileBot_5.1.1/FileBot_5.1.1-aur.tar.xz
+        sha256: 60d1a9c3c4732deaeadee099f8dac4c008b431f88be8a4d27d1416ec161ed075
         x-checker-data:
           type: html
           url: https://www.filebot.net/update.xml
