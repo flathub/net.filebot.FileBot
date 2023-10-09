@@ -22,6 +22,8 @@ modules:
       - /usr/lib/sdk/openjdk/install.sh
   - name: zenity
     buildsystem: meson
+    build-commands:
+      - mkdir -p ${FLATPAK_DEST}/share/icons/hicolor
     sources:
       - type: git
         url: https://gitlab.gnome.org/GNOME/zenity.git
