@@ -1,9 +1,9 @@
 app-id: net.filebot.FileBot
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk11
+  - org.freedesktop.Sdk.Extension.openjdk
 command: filebot.sh
 separate-locales: false
 finish-args:
@@ -19,7 +19,7 @@ modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk11/install.sh
+      - /usr/lib/sdk/openjdk/install.sh
   - name: zenity
     buildsystem: meson
     sources:
