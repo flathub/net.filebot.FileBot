@@ -1,9 +1,9 @@
 app-id: net.filebot.FileBot
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: "23.08"
 sdk: org.freedesktop.Sdk
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.openjdk11
+  - org.freedesktop.Sdk.Extension.openjdk
 command: filebot.sh
 separate-locales: false
 finish-args:
@@ -19,21 +19,23 @@ modules:
   - name: openjdk
     buildsystem: simple
     build-commands:
-      - /usr/lib/sdk/openjdk11/install.sh
+      - /usr/lib/sdk/openjdk/install.sh
   - name: zenity
     buildsystem: meson
+    build-commands:
+      - mkdir -p ${FLATPAK_DEST}/share/icons/hicolor
     sources:
       - type: git
         url: https://gitlab.gnome.org/GNOME/zenity.git
-        tag: 3.41.0
+        tag: 3.44.2-real
   - name: chromaprint
     buildsystem: cmake-ninja
     config-opts:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
     sources:
       - type: archive
-        url: https://github.com/acoustid/chromaprint/archive/v1.5.0.tar.gz
-        sha256: 5c8e0d579cb3478900699110aa961c1552a422a18741cf67dd62136b1b877c7b
+        url: https://github.com/acoustid/chromaprint/archive/v1.5.1.tar.gz
+        sha256: a1aad8fa3b8b18b78d3755b3767faff9abb67242e01b478ec9a64e190f335e1c
   - name: libzen
     subdir: Project/GNU/Library
     config-opts:
@@ -46,8 +48,8 @@ modules:
       - /lib/*.la
     sources:
       - type: archive
-        url: https://mediaarea.net/download/source/libzen/0.4.39/libzen_0.4.39.tar.xz
-        sha256: cded5d7774294e7d5b42768ceb285243709b6e99eec6e980a3cf7f0890dbb622
+        url: https://old.mediaarea.net/download/source/libzen/0.4.41/libzen_0.4.41.tar.xz
+        sha256: 933bad3b7ecd29dc6bdc88a83645c83dfd098c15b0b90d6177a37fa1536704e8
   - name: libmediainfo
     subdir: Project/GNU/Library
     config-opts:
@@ -61,8 +63,8 @@ modules:
       - /lib/*.la
     sources:
       - type: archive
-        url: https://mediaarea.net/download/source/libmediainfo/21.09/libmediainfo_21.09.tar.xz
-        sha256: 69be9444f6a03a1bdf56713ee31d56e987c502a7ec18eb54ee70fcc171b7f126
+        url: https://old.mediaarea.net/download/source/libmediainfo/23.10/libmediainfo_23.10.tar.xz
+        sha256: 76ebe502e0f310b559d5dd90727d9aafd5fabaaeca3442f38e629dfc07da0d22
   - name: filebot
     buildsystem: simple
     build-commands:
