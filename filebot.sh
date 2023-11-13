@@ -1,6 +1,12 @@
 #!/bin/sh
 FILEBOT_HOME="/app"
 
+
+if [[ $XDG_SESSION_TYPE == "wayland" ]]
+then
+    WAYLAND_DISPLAY=
+fi
+
 # select application data folder
 APP_DATA="$XDG_CONFIG_HOME/filebot"
 LIBRARY_PATH="$FILEBOT_HOME/lib/$(uname -m):/lib64"
