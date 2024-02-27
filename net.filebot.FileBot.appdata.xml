@@ -26,7 +26,15 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="5.1.3" date="2024-02-26"/>
+    <release version="5.1.3" date="2024-02-26">
+      <description>
+        <ul>
+          <li>Added support for Official episode order</li>
+          <li>Improved charset detection</li>
+          <li>Experimental support for OpenSubtitles REST API</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.1.2" date="2023-11-07">
       <description>
         <ul>
