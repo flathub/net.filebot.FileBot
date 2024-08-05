@@ -26,6 +26,20 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="5.1.4" date="2024-07-29">
+      <description>
+        <ul>
+          <li>Enable multi-selection for Icon and IconIcon actions</li>
+          <li>Improved {kodi.id} binding (e.g. {tmdb=12345} pattern)</li>
+          <li>Improved series / episode auto-detection</li>
+          <li>Improved charset detection (e.g. Windows-1250 encoded subtitles)</li>
+          <li>Improved error messages (e.g. cross-device hardlinks)</li>
+          <li>Added --apply thumbnail post-processing feature to generate movie / episode thumbnails (for Synology NAS and QNAP NAS platforms)</li>
+          <li>Added hidden version / revision information label</li>
+          <li>Support for DWMWA_USE_IMMERSIVE_DARK_MODE on Windows 11</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.1.3" date="2024-02-26">
       <description>
         <ul>
