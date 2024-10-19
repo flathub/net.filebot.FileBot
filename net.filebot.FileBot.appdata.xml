@@ -26,6 +26,16 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="5.1.6" date="2024-10-16">
+      <description>
+        <ul>
+          <li>Enable OpenSubtitles REST API by default</li>
+          <li>Improved series / episode detection</li>
+          <li>Improved system integration</li>
+          <li>Lots of minor improvements and bug fixes</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.1.5" date="2024-08-20">
       <description>
         <ul>
