@@ -20,18 +20,6 @@ modules:
     buildsystem: simple
     build-commands:
       - /usr/lib/sdk/openjdk/install.sh
-  - name: zenity
-    buildsystem: meson
-    build-commands:
-      - mkdir -p ${FLATPAK_DEST}/share/icons/hicolor
-    sources:
-      - type: git
-        url: https://gitlab.gnome.org/GNOME/zenity.git
-        tag: 3.44.5
-        x-checker-data:
-          type: git
-          tag-pattern: ^([\d.]+)$
-        commit: dfe1556344eedce4930b8837fbbc8a8334d783e0
   - name: chromaprint
     buildsystem: cmake-ninja
     config-opts:
