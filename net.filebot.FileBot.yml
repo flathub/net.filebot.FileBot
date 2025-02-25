@@ -27,17 +27,18 @@ modules:
     sources:
       - type: git
         url: https://gitlab.gnome.org/GNOME/zenity.git
-        tag: 3.44.2-real
+        tag: 3.44.5
         x-checker-data:
           type: git
-          tag-pattern: "^([\\d.]+)$"
+          tag-pattern: ^([\d.]+)$
+        commit: dfe1556344eedce4930b8837fbbc8a8334d783e0
   - name: chromaprint
     buildsystem: cmake-ninja
     config-opts:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
     sources:
       - type: archive
-        url: https://github.com/acoustid/chromaprint/archive/v1.5.1.tar.gz
+        url: https://github.com/acoustid/chromaprint/releases/download/v1.5.1/chromaprint-1.5.1.tar.gz
         sha256: a1aad8fa3b8b18b78d3755b3767faff9abb67242e01b478ec9a64e190f335e1c
         x-checker-data:
           type: anitya
@@ -55,7 +56,7 @@ modules:
       - /lib/*.la
     sources:
       - type: archive
-        url: https://old.mediaarea.net/download/source/libzen/0.4.41/libzen_0.4.41.tar.xz
+        url: https://mediaarea.net/download/source/libzen/0.4.41/libzen_0.4.41.tar.xz
         sha256: 933bad3b7ecd29dc6bdc88a83645c83dfd098c15b0b90d6177a37fa1536704e8
         x-checker-data:
           type: anitya
@@ -74,8 +75,8 @@ modules:
       - /lib/*.la
     sources:
       - type: archive
-        url: https://old.mediaarea.net/download/source/libmediainfo/23.10/libmediainfo_23.10.tar.xz
-        sha256: 76ebe502e0f310b559d5dd90727d9aafd5fabaaeca3442f38e629dfc07da0d22
+        url: https://mediaarea.net/download/source/libmediainfo/24.12/libmediainfo_24.12.tar.xz
+        sha256: 1f4986207f75deb290915e6bf0b33e3e455774305dd266ffe8997c01aad65b27
         x-checker-data:
           type: anitya
           project-id: 16249
