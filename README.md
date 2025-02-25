@@ -3,7 +3,7 @@
 ## Building
 
 ```
-flatpak-builder build-dir --user --ccache --force-clean --install net.filebot.FileBot.yml
+flatpak run org.flatpak.Builder build-dir --user --ccache --force-clean --install net.filebot.FileBot.yml
 ```
 
 Then you can run it via the command line:
