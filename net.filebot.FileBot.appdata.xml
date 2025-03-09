@@ -26,6 +26,17 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="5.1.7" date="2025-03-06">
+      <description>
+        <ul>
+          <li>Improved series / episode auto-detection</li>
+          <li>Support for custom ChatGPT prompt integrations</li>
+          <li>Support for custom page scraper integrations</li>
+          <li>Improved support for custom rename actions on Windows platforms</li>
+          <li>Improved support for arm64 on Windows 11</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.1.6" date="2024-10-16">
       <description>
         <ul>
