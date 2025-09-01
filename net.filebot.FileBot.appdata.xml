@@ -26,6 +26,17 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="5.2.0" date="2025-09-01">
+      <description>
+        <ul>
+          <li>Support for matching or re-matching selected items</li>
+          <li>Improved movie / episode auto-detection</li>
+          <li>Improved support for DNG image files</li>
+          <li>Improved support for multi-monitor environments</li>
+          <li>Lots of minor improvements and bug fixes</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.1.7" date="2025-03-06">
       <description>
         <ul>
