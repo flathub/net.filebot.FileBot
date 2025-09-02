@@ -26,8 +26,8 @@ modules:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
     sources:
       - type: archive
-        url: https://github.com/acoustid/chromaprint/releases/download/v1.5.1/chromaprint-1.5.1.tar.gz
-        sha256: a1aad8fa3b8b18b78d3755b3767faff9abb67242e01b478ec9a64e190f335e1c
+        url: https://github.com/acoustid/chromaprint/releases/download/v1.6.0/chromaprint-1.6.0.tar.gz
+        sha256: 9d33482e56a1389a37a0d6742c376139fa43e3b8a63d29003222b93db2cb40da
         x-checker-data:
           type: anitya
           project-id: 286
@@ -87,8 +87,8 @@ modules:
       - type: file
         path: net.filebot.FileBot.svg
       - type: archive
-        url: https://get.filebot.net/filebot/FileBot_5.1.7/FileBot_5.1.7-aur.tar.xz
-        sha256: 27293bea4be73278faf4a3ff18c6971b5d59c566435ef9b18878004fe9093ff9
+        url: https://get.filebot.net/filebot/FileBot_5.2.0/FileBot_5.2.0-aur.tar.xz
+        sha256: b96db9b6060c7782c25ba6b0f55dcf6d5c18a25d8d14469ee99f10dc7a69f324
         x-checker-data:
           type: html
           url: https://www.filebot.net/update.xml
