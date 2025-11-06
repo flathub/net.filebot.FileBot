@@ -1,6 +1,6 @@
 app-id: net.filebot.FileBot
 runtime: org.freedesktop.Platform
-runtime-version: "25.08"
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk
@@ -63,8 +63,8 @@ modules:
       - /lib/*.la
     sources:
       - type: archive
-        url: https://mediaarea.net/download/source/libmediainfo/25.09/libmediainfo_25.09.tar.xz
-        sha256: 8562e8ea03e2af8bde27f66d79a0f573859b8f13193ec115abf10f735b313a12
+        url: https://mediaarea.net/download/source/libmediainfo/25.10/libmediainfo_25.10.tar.xz
+        sha256: ad13d9797b046ce39d0c65a6f81d2aef2429734c21865a6a4c592c7c01f249dd
         x-checker-data:
           type: anitya
           project-id: 16249
