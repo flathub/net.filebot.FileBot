@@ -6,9 +6,31 @@
   <developer_name>rednoah</developer_name>
   <summary>Ultimate TV and movie renamer</summary>
    <description>
-    <p>FileBot is the ultimate tool for renaming and organizing your movies, TV shows and Anime. Match and rename media files against online databases, download artwork and cover images, fetch subtitles, write metadata, and more, all at once in matter of seconds. It's smart and just works.</p>
-    <p>NOTE: This application is not verified by, affiliated with, or supported by Point Planck Limited.</p>
-  </description>
+       <p>
+       FileBot is a comprehensive tool for renaming and organizing your TV shows, movies, and anime collections. Its advanced features enable you to match and rename media files against online databases, download artwork and cover images, fetch subtitles, write metadata, and more.
+       </p>
+       <p>
+       With FileBot, you can efficiently manage your media library by automatically updating file names and metadata, ensuring consistency across all your devices and platforms.
+       </p>
+       <p>
+       The application supports multiple database sources, including TheMovieDB, IMDB, and MyAnimeList, allowing you to keep your collection up-to-date and easily accessible.
+       </p>
+       <p>
+       FileBot also includes features for advanced media management, such as automatic file organization, duplicate file detection, and customizable naming conventions.
+       </p>
+       <ul>
+       <li>Matches and renames media files against online databases</li>
+       <li>D Downloads artwork and cover images from various sources</li>
+       <li>Fetches subtitles and other metadata for accurate identification</li>
+       <li>Automatically writes updated metadata to file names</li>
+       <li>Supports multiple database sources, including TheMovieDB, IMDB, and MyAnimeList</li>
+       </ul>
+       <p>
+       FileBot is a powerful tool for media enthusiasts looking to streamline their library management. Its ease of use and flexibility make it an ideal solution for anyone seeking to organize their TV shows, movies, and anime collections.</p>
+       <p>
+         NOTE: This application is not verified by, affiliated with, or supported by Point Planck Limited.
+       </p>
+   </description>
   <launchable type="desktop-id">net.filebot.FileBot.desktop</launchable>
   <content_rating type="oars-1.1"/>
   <metadata_license>CC0-1.0</metadata_license>
@@ -205,4 +227,11 @@
     <release version="4.9.5" date="2022-02-22"/>
     <release version="4.9.4" date="2021-07-28"/>
   </releases>
+    <keywords>
+        <keyword>tv renamer</keyword>
+        <keyword>file organizer</keyword>
+        <keyword>media metadata</keyword>
+        <keyword>anime renamer</keyword>
+        <keyword>video renaming tool</keyword>
+    </keywords>
 </component>
