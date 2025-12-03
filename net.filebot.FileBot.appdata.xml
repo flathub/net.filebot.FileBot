@@ -40,11 +40,11 @@
   <screenshots>
     <screenshot type="default">
       <caption>FileBot rename frontend</caption>
-      <image type="source">https://github.com/razzeee/net.filebot.FileBot/raw/main/rename.png</image>
+      <image type="source">https://raw.githubusercontent.com/flathub/net.filebot.FileBot/224959bbe5e75d337e15ef490e0f106adac5348d/rename.png</image>
     </screenshot>
     <screenshot>
       <caption>FileBot episodes frontend</caption>
-      <image type="source">https://github.com/razzeee/net.filebot.FileBot/raw/main/episodes.png</image>
+      <image type="source">https://raw.githubusercontent.com/flathub/net.filebot.FileBot/224959bbe5e75d337e15ef490e0f106adac5348d/episodes.png</image>
     </screenshot>
   </screenshots>
   <releases>
