@@ -20,7 +20,7 @@
        </p>
        <ul>
        <li>Matches and renames media files against online databases</li>
-       <li>D Downloads artwork and cover images from various sources</li>
+       <li>Downloads artwork and cover images from various sources</li>
        <li>Fetches subtitles and other metadata for accurate identification</li>
        <li>Automatically writes updated metadata to file names</li>
        <li>Supports multiple database sources, including TheMovieDB, IMDB, and MyAnimeList</li>
