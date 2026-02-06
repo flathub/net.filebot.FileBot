@@ -63,8 +63,8 @@ modules:
       - /lib/*.la
     sources:
       - type: archive
-        url: https://mediaarea.net/download/source/libmediainfo/25.10/libmediainfo_25.10.tar.xz
-        sha256: ad13d9797b046ce39d0c65a6f81d2aef2429734c21865a6a4c592c7c01f249dd
+        url: https://mediaarea.net/download/source/libmediainfo/26.01/libmediainfo_26.01.tar.xz
+        sha256: bcd3d2cc12cf108ca0fbad07568b303257e72afd8ff73d05cfe6b7aa0e66a1c5
         x-checker-data:
           type: anitya
           project-id: 16249
@@ -87,8 +87,8 @@ modules:
       - type: file
         path: net.filebot.FileBot.svg
       - type: archive
-        url: https://get.filebot.net/filebot/FileBot_5.2.0/FileBot_5.2.0-aur.tar.xz
-        sha256: b96db9b6060c7782c25ba6b0f55dcf6d5c18a25d8d14469ee99f10dc7a69f324
+        url: https://get.filebot.net/filebot/FileBot_5.2.1/FileBot_5.2.1-aur.tar.xz
+        sha256: da5bd7f4025033a485adbcfcaa12fc8250ccb25b027c78ea051e18601f569b05
         x-checker-data:
           type: html
           url: https://www.filebot.net/update.xml
