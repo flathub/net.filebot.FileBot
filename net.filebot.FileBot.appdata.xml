@@ -48,6 +48,21 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="5.2.1" date="2026-02-06">
+      <description>
+        <ul>
+          <li>Added support for custom file order expressions in Presets</li>
+          <li>Added SPACE bar shortcut to show / hide match details</li>
+          <li>Improved series / episode auto-detection</li>
+          <li>Enhanced support for SMB network shares</li>
+          <li>Enhanced movie details tooltip</li>
+          <li>Enhanced background task management</li>
+          <li>Fix {hdr} backwards compatibility issues</li>
+          <li>Fix {plex.tail} or {plex[1]} custom format issues on Windows</li>
+          <li>Fix Path.toRealPath(LinkOption.NOFOLLOW_LINKS) performance issues on macOS</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.2.0" date="2025-09-01">
       <description>
         <ul>

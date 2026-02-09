@@ -87,8 +87,8 @@ modules:
       - type: file
         path: net.filebot.FileBot.svg
       - type: archive
-        url: https://get.filebot.net/filebot/FileBot_5.2.0/FileBot_5.2.0-aur.tar.xz
-        sha256: b96db9b6060c7782c25ba6b0f55dcf6d5c18a25d8d14469ee99f10dc7a69f324
+        url: https://get.filebot.net/filebot/FileBot_5.2.1/FileBot_5.2.1-aur.tar.xz
+        sha256: da5bd7f4025033a485adbcfcaa12fc8250ccb25b027c78ea051e18601f569b05
         x-checker-data:
           type: html
           url: https://www.filebot.net/update.xml
