@@ -48,6 +48,17 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="5.2.3" date="2026-06-08">
+      <description>
+        <ul>
+          <li>Support for TheDiscDB episode mapping information (i.e. improved automatic matching for file names like Disc_1_t01 or 00001_t01 if mapping information is available)</li>
+          <li>Support for en-US locale-style language codes</li>
+          <li>Enable column edit behaviour for Edit Name by default for all items with a common prefix</li>
+          <li>Improved series / episode auto-detection</li>
+          <li>Improved support for cancellation of user-defined scripts</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.2.1" date="2026-02-06">
       <description>
         <ul>
