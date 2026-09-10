@@ -48,6 +48,15 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="5.3.0" date="2026-09-10">
+      <description>
+        <ul>
+          <li>Improved movie / series / episode auto-detection</li>
+          <li>Improved column edit behaviour</li>
+          <li>Lots of minor improvements and bug fixes</li>
+        </ul>
+      </description>
+    </release>
     <release version="5.2.3" date="2026-06-08">
       <description>
         <ul>
