@@ -63,8 +63,8 @@ modules:
       - /lib/*.la
     sources:
       - type: archive
-        url: https://mediaarea.net/download/source/libmediainfo/26.05/libmediainfo_26.05.tar.xz
-        sha256: c08b2d87b2fb5edb4526c2a8a317eb1f2cff44807e4631a037ca9f9a1d455054
+        url: https://mediaarea.net/download/source/libmediainfo/26.10/libmediainfo_26.10.tar.xz
+        sha256: a806fd36592549a03e810486f415a6858d4d8f14066bfbe97b32a447cd5eb590
         x-checker-data:
           type: anitya
           project-id: 16249
