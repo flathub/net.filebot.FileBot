@@ -26,8 +26,8 @@ modules:
       - -DCMAKE_BUILD_TYPE=RelWithDebInfo
     sources:
       - type: archive
-        url: https://github.com/acoustid/chromaprint/releases/download/v1.6.1/chromaprint-1.6.1.tar.gz
-        sha256: 3368805af0ee47b9df74df10b5001a44569e01df2844dab520031720dde9ad23
+        url: https://github.com/acoustid/chromaprint/releases/download/v1.6.2/chromaprint-1.6.2.tar.gz
+        sha256: d54ada62c16b2db396d3251ec54fc7a58909c163131a1cfcf7fa6407dbc14360
         x-checker-data:
           type: anitya
           project-id: 286
@@ -63,8 +63,8 @@ modules:
       - /lib/*.la
     sources:
       - type: archive
-        url: https://mediaarea.net/download/source/libmediainfo/26.05/libmediainfo_26.05.tar.xz
-        sha256: c08b2d87b2fb5edb4526c2a8a317eb1f2cff44807e4631a037ca9f9a1d455054
+        url: https://mediaarea.net/download/source/libmediainfo/26.10/libmediainfo_26.10.tar.xz
+        sha256: a806fd36592549a03e810486f415a6858d4d8f14066bfbe97b32a447cd5eb590
         x-checker-data:
           type: anitya
           project-id: 16249
