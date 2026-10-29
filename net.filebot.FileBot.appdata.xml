@@ -2,7 +2,7 @@
 <component type="desktop">
   <id>net.filebot.FileBot</id>
   <name>FileBot</name>
-  <project_license>LicenseRef-proprietary</project_license>
+  <project_license>LicenseRef-proprietary=https://www.filebot.net/eula.html</project_license>
   <developer_name>rednoah</developer_name>
   <summary>Rename media files perfectly</summary>
    <description>
