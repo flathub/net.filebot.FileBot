@@ -1,0 +1,341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-06-02 16:20+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. (itstool) path: component/name
+#: net.filebot.FileBot.appdata.xml:4
+msgid "FileBot"
+msgstr ""
+
+#. (itstool) path: component/developer_name
+#: net.filebot.FileBot.appdata.xml:6
+msgid "rednoah"
+msgstr ""
+
+#. (itstool) path: component/summary
+#: net.filebot.FileBot.appdata.xml:7
+msgid "The ultimate TV and Movie Renamer"
+msgstr ""
+
+#. (itstool) path: description/p
+#: net.filebot.FileBot.appdata.xml:9
+msgid "FileBot is the ultimate tool for renaming and organizing your movies, TV shows and Anime. Match and rename media files against online databases, download artwork and cover images, fetch subtitles, write metadata, and more, all at once in matter of seconds. It's smart and just works."
+msgstr ""
+
+#. (itstool) path: description/p
+#: net.filebot.FileBot.appdata.xml:10
+msgid "NOTE: This application is not verified by, affiliated with, or supported by Point Planck Limited."
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#: net.filebot.FileBot.appdata.xml:20
+msgid "FileBot rename frontend"
+msgstr ""
+
+#. (itstool) path: screenshot/caption
+#: net.filebot.FileBot.appdata.xml:24
+msgid "FileBot episodes frontend"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:32
+msgid "Added {plex.year} plex format with year binding"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:33
+msgid "Added {language} original language binding"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:34
+msgid "Added {mediaFileName} media file name without extension binding"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:35
+msgid "Added {dovi} Dolby Vision tag binding"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:36
+msgid "Improved csv() parser"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:37
+msgid "Support for companion files in Music Mode"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:38
+msgid "Support for WM_QUERYENDSESSION events on Windows"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:39
+msgid "Support for clone &amp; delete cross-subvolume move operations on Linux / BTRFS"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:40
+msgid "Improved support for clone operations on macOS / APFS and Linux / BTRFS"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:47
+msgid "Fix Debian Linux libjna-java package compatibility issues"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:54
+msgid "Support for custom post-processing scripts"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:55
+msgid "Added {tvdbid} binding"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:56
+msgid "Added {medium} binding"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:57
+msgid "Added {episodelist} binding"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:58
+msgid "Added --file-order option"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:59
+msgid "Cache mediainfo and ffprobe output"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:60
+msgid "Improved --mode interactive series selection"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:61
+msgid "Improved support for EXIF metadata"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:62
+msgid "Improved support for xfs and bcachefs"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:63
+msgid "Added system.properties editor"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:64
+msgid "Resolve commands against the %PATH% on Windows platforms"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:65
+msgid "Improved extattr support on BSD platforms"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:66
+msgid "Improved support for nested include files"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:73
+msgid "Use Series Name (Year) as {kodi} naming standard"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:74
+msgid "Use custom --action for --apply import file operations"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:75
+msgid "Improved support for .xattr folders with --apply import and --apply prune post-processing features"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:76
+msgid "Improved support for external format files"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:77
+msgid "Fix NFO file mismatch issues"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:78
+msgid "Fix {resolution}, {bitrate}, {channels}, {khz}, etc binding issues"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:85
+msgid "Fix {resolution} default String representation issues"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:86
+msgid "Fix NFO file invalid ID lookup issues"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:87
+msgid "Fix HTTP/2 system proxy issues"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:94
+msgid "Fix the TheTVDB search issues"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:95
+msgid "Fix TVmaze lookup issues"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:96
+msgid "Fix series auto-selection issues"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:103
+msgid "Added support for Digital and Production and Story Arc episode order preferences"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:104
+msgid "Added Default Presets for assorted use cases"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:105
+msgid "Added Group ➔ Double Episodes to Episodes context menu"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:106
+msgid "Added {jellyfin} binding (i.e. Jellyfin naming standard)"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:107
+msgid "Added {acf} audio channel format tag binding"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:108
+msgid "Added {ct} file creation date binding"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:109
+msgid "Added {relativeFile} relative library path binding"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:110
+msgid "Enhanced {hd} with support for additional HD resolutions (i.e. UHD / QHD / FHD / HD / SD)"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:111
+msgid "Enhanced Match auto-align behaviour"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:112
+msgid "Added column edit behaviour to Edit Name"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:113
+msgid "Added CTRL+O and CTRL+L keyboard shortcuts for Open and Reveal"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:114
+msgid "Added CTRL+M and CTRL+N keyboard shortcuts for Edit Match and Edit Name"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:115
+msgid "Support for setting POSIX permissions via --apply chmod"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:116
+msgid "Support for Extras via --apply import"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:117
+msgid "Support for transcoding TMPlayer and MPL2 subtitle files to SRT / UTF-8"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:118
+msgid "Enable TheTVDBv4 by default"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:119
+msgid "Enable HTTP/2 by default"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:120
+msgid "Fix drag-n-drop issues on Linux / KDE / Dolphin"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:127
+msgid "Added Open / Reveal / Rename / Move to Trash context menu"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:128
+msgid "Autofill behaviour for Edit Match"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:129
+msgid "Improved Conflict resolution messages"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:130
+msgid "Improved support for {plex.id} style file paths"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:131
+msgid "Enhanced format bindings"
+msgstr ""
+
+#. (itstool) path: ul/li
+#: net.filebot.FileBot.appdata.xml:132
+msgid "Lots of minor improvements and bug fixes"
+msgstr ""
+
