@@ -39,12 +39,12 @@
   <url type="help">https://www.filebot.net/manual.html</url>
   <screenshots>
     <screenshot type="default">
-      <caption>FileBot rename frontend</caption>
-      <image type="source">https://raw.githubusercontent.com/flathub/net.filebot.FileBot/224959bbe5e75d337e15ef490e0f106adac5348d/rename.png</image>
+      <caption>FileBot :: Rename</caption>
+      <image type="source">https://raw.githubusercontent.com/flathub/net.filebot.FileBot/master/screenshots/rename.png</image>
     </screenshot>
     <screenshot>
-      <caption>FileBot episodes frontend</caption>
-      <image type="source">https://raw.githubusercontent.com/flathub/net.filebot.FileBot/224959bbe5e75d337e15ef490e0f106adac5348d/episodes.png</image>
+      <caption>FileBot :: Rename :: Format Editor</caption>
+      <image type="source">https://raw.githubusercontent.com/flathub/net.filebot.FileBot/master/screenshots/rename.format.png</image>
     </screenshot>
   </screenshots>
   <releases>
